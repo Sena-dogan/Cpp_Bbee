@@ -11,11 +11,18 @@
 #include <vector>
 
 #include <algorithm>
+//? provides a collection of functions for performing various operations on containers,
+//? such as searching, sorting, and manipulating elements. In this code, it's used specifically
+//? for the std::sort() function, which is a part of the <algorithm> library.
 
 using namespace std;
 
 void descendingSort(int *arr, int size) {
     sort(arr, arr + size, greater<int>());
+    //? sort() function is used to sort a range of elements in ascending or descending order.
+
+    //? includes() function, which is a different function from the <algorithm> library.
+    //? The includes() function is used to test whether one sorted range is a subset of another sorted range.
 }
 
 void printArray(int *arr, int size) {
